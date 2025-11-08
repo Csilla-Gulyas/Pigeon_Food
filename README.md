@@ -1,6 +1,6 @@
 # Pigeon_Food_Website
 
-**Live demo:** [https://csilla-gulyas.github.io/Pigeon_Food/](https://csilla‑gulyas.github.io/Pigeon_Food/)
+**Live demo:** [https://csilla-gulyas.github.io/Pigeon_Food/](https://csilla-gulyas.github.io/Pigeon_Food/)
 
 ## Projektleírás
 A **Pigeon Food** projekt egy **statikus weboldal** front-endjét valósítja meg.  
