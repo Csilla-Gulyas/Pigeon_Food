@@ -1,5 +1,7 @@
 # Pigeon_Food_Website
 
+**Live demo:** [https://csilla-gulyas.github.io/Pigeon_Food/](https://csilla‑gulyas.github.io/Pigeon_Food/)
+
 ## Projektleírás
 A **Pigeon Food** projekt egy **statikus weboldal** front-endjét valósítja meg.  
 A rendszer célja, hogy lehetővé tegye a felhasználók számára az ételek böngészését, a rendelés leadását, valamint a felhasználói fiókok kezelését.
