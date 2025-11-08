@@ -1,0 +1,189 @@
+*{
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+html, body{
+	margin: 0;
+}
+
+button, a, input[type="checkbox"]{
+	cursor: pointer;
+}
+
+header, footer{
+	background-color: #0c2f3b;
+	width: 100%;
+    /* box-shadow: inset 0 0 20px 10px #0c2f3b; */
+    border:none;
+    font-size: 12px;
+    color: white;
+	padding: 22px;
+}
+
+/*FOOTER*/
+footer li{
+	list-style-type: none;
+	margin-bottom: 12px;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 100px;
+}
+
+.footer-title{
+	font-size: 20px;
+}
+
+.footer-end-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	gap: 8px;
+	margin-bottom: 6px;
+	text-decoration: underline;
+	padding-bottom: 2px;
+}
+
+.footer-end-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 70%;
+	font-size: 10px;
+}
+
+ul{
+	margin: 0;
+}
+
+.footer-cursor-pointer li, .cursor-pointer{
+	cursor: pointer;
+}
+
+.footer-cursor-pointer span{
+	cursor: default;
+}
+
+.social-media-icons i{
+	font-size: 24px;
+	color: #e8491c;
+	margin: 8px 8px 8px 0;
+}
+
+.fa-facebook-f:hover{
+	color: #4267B2;
+}
+
+.fa-instagram:hover{
+	 background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-x:hover{
+	color: white;
+}
+
+.fa-pinterest:hover{
+	color: #E60023;
+}
+
+/*HEADER*/
+.logo{
+	width: 150px;
+	height: 150px;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 100px;
+	font-size: 20px;
+	padding: 40px;
+	height: 200px;
+}
+
+.pigeon-food-title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
+
+.pigeon-food-title h1, .pigeon-food-title h2{
+	margin: 0;
+}
+
+.pigeon-food-title h1{
+	font-size: 40px;
+}
+
+.pigeon-food-title h2{
+	font-size: 14px;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 100px;
+	
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 8px 8px;
+	  margin: 0 10px;
+	  text-decoration: none;
+	  border: 1px solid #0c2f3b;
+	}
+	
+	.active{
+		border-bottom-color: #e8491c;
+	}
+
+	.orange-hover:hover {
+	  /* background-color: #00222b; */
+		border-color: #e8491c;
+	}
+
+    i:hover {
+      animation: heartbeat 0.6s;
+      animation-fill-mode: forwards;
+    }
+	
+}
+
+@keyframes heartbeat {
+  0% {
+	transform: scale(1);
+  }
+  50% {
+	transform: scale(1.7);
+  }
+  100% {
+	transform: scale(1.4);
+  }
+}

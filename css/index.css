@@ -1,0 +1,183 @@
+/*bootstrap fix*/
+header, nav, main {
+    display: flex !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+
+    .carousel {
+        width: 1200px;
+        max-width: 100%;
+    }
+
+    .carousel-item img {
+        object-fit: cover;
+    }
+}
+
+.reviews-titles {
+    width: 100%;
+    max-width: 920px;
+}
+
+.reviews-titles h4{
+    background-color: #0c2f3b;
+    margin: 70px 0 40px 0;
+    padding: 10px 50px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.reviews-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .carousel .carousel-item {
+        color: #999;
+        overflow: hidden;
+        min-height: 120px;
+        font-size: 13px;
+    }
+
+    .carousel .media img {
+        margin-top: 20px;
+        width: 80px;
+        height: 80px;
+        display: block;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .carousel .testimonial {
+        padding: 0 0 0 60px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .carousel .testimonial::before {
+        content: "\201C";
+        font-family: Arial, sans-serif;
+        color: #e2e2e2;
+        font-weight: bold;
+        font-size: 68px;
+        line-height: 54px;
+        position: absolute;
+        left: 15px;
+        top: 0;
+    }
+
+    .carousel .overview b {
+        text-transform: uppercase;
+        color: #e8491c;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e8491c' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e8491c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .carousel.slide {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 20px;
+        margin: 0 20px;
+        position: relative;
+    }
+
+    .col-sm-6 {
+        height: 160px;
+    }
+
+    .media, .media-body, .testimonial {
+        height: 100%;
+    }
+}
+
+.delivery-process-container {
+    background-color: #e8491c;
+    color: white;
+    max-width: 1200px;
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.delivery-title {
+    margin: 40px 0 10px 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.delivery-title-pigeon-food{
+	font-weight: 500;
+}
+
+.delivery-process {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 40px;
+}
+
+.delivery-card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.delivery-card i {
+    color: white;
+    font-size: 50px;
+}
+
+.delivery-card h6 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.delivery-card p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}

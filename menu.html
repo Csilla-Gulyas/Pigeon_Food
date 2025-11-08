@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pigeon Food</title>
+	<link href="css/general.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+	<div class="pigeon-food-title">
+		<a href="index.html">
+			<img src="assets/logo.png" class="logo">
+		</a>
+		<div>
+			<h1>Pigeon Food</h1>
+			<h2>Don't eat pigeons, eat Pigeon Food!</h2>
+		</div>
+	</div>
+	<div>
+		<nav>
+			<ul>
+			  <li><a class="orange-hover" href="index.html">Főoldal</a></li>
+			  <li><a class="orange-hover active" href="menu.html">Étlap</a></li>
+			  <li><a class="orange-hover" href="contacts.html">Kapcsolatok</a></li>
+			</ul>
+			<ul>
+			  <li><a class="orange-hover" href="login.html">Bejelentkezés</a></li>
+			  <li><a class="orange-hover" href="register.html">Regisztráció</a></li>
+			  <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<main>
+	<nav class="menu-navigation">
+		<ul>
+		  <li><a href="#sessional-offers">Szezonális ajánlatunk</a></li>
+		  <li><a href="#appetizers">Előételeink</a></li>
+		  <li><a href="#poultry-dishes">Szárnyas ételeink</a></li>
+		  <li><a href="#pork-dishes">Disznóságok</a></li>
+		  <li><a href="#beef-dishes">Marhaságok</a></li>
+		  <li><a href="#desserts">Desszertek</a></li>
+		</ul>
+	</nav>
+	<div class="menu">
+		<div class="menu-titles" id="sessional-offers">
+			<h4>Szezonális ajánlatunk</h4>
+		</div>
+		<div class="menu-cards-container" id="sessional-offers-container">
+		</div>
+		<div class="menu-titles" id="appetizers">
+			<h4>Előételeink</h4>
+		</div>
+		<div class="menu-cards-container" id="appetizers-container">
+		</div>
+		<div class="menu-titles" id="poultry-dishes">
+			<h4>Szárnyas ételeink</h4>
+		</div>
+		<div class="menu-cards-container" id="poultry-dishes-container">
+		</div>
+		<div class="menu-titles" id="pork-dishes">
+			<h4>Disznóságok</h4>
+		</div>
+		<div class="menu-cards-container" id="pork-dishes-container">
+		</div>
+		<div class="menu-titles" id="beef-dishes">
+			<h4>Marhaságok</h4>
+		</div>
+		<div class="menu-cards-container" id="beef-dishes-container">
+		</div>
+		<div class="menu-titles" id="desserts">
+			<h4>Desszertek</h4>
+		</div>
+		<div class="menu-cards-container" id="desserts-container">
+		</div>
+	</div>
+</main>
+<div class="menu-cards" id="card-template" style="display: none">
+	<img src="">
+	<div class="menu-cards-text">
+		<h5></h5>
+		<div class="menu-icons">
+			<div class="menu-cards-information">
+				<i class="fa-solid fa-circle-exclamation"></i>
+				<i class="fa-solid fa-fire"></i>
+			</div>
+			<div class="menu-cards-shopping-cart">
+				<h6></h6>
+				<i class="fa-solid fa-cart-shopping"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footer-container">
+		<div>
+			<ul>
+				<li><span class="footer-title">Kapcsolat:</span></li>
+				<li>6725 Szeged, Galamb utca 1.</li>
+				<li>Nyitvatartás:</li>
+				<li>H-P 10:00-22:00</li>
+				<li>SZ-V 11:00-24:00</li>
+				<li>E-mail: info@pigeonfoog.hu</li>
+				<li>Telefonszám: +36/20-333-4455</li>
+			</ul>
+		</div>
+		<div class="footer-cursor-pointer">
+			<ul>
+				<li><span class="footer-title">Rendelés és szállítás:</span></li>
+				<li>Felhasználói fiók</li>
+				<li>Fizetési módok</li>
+				<li>Szállítással kapcsolatos részletek</li>
+			</ul>
+		</div>
+		<div class="footer-cursor-pointer">
+			<ul>
+				<li><span class="footer-title">Kövess minket:</span></li>
+				<li>
+					<div class="social-media-icons">
+						<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.twitter.com/yourprofile" target="_blank"><i class="fab fa-x"></i></a>
+						<a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a>
+					</div>
+				</li>
+				<li>Hírlevél feliratkozás</li>
+			</ul>
+		</div>
+		<div class="footer-cursor-pointer">
+			<ul>
+				<li><span class="footer-title">PigeonFood:</span></li>
+				<li>Kik vagyunk?</li>
+				<li>Fenntartható alapanyagok</li>
+				<li>Partnereink</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-container-end">
+		<div class="footer-end-1">
+			<span class="cursor-pointer">Felhasználási feltételek</span>
+			<span>|</span>
+			<span class="cursor-pointer">Adatvédelmi irányelvek</span>
+			<span>|</span>
+			<span class="cursor-pointer">Cookie szabályzat</span>
+		</div>
+		<div class="footer-end-2">
+			<span>Copyright © 2024 PigeonFood. Minden jog fenntartva.</span>
+		</div>
+	</div>
+</footer>
+</body>
+<script src="js/menu.js" defer></script>
+</html>
