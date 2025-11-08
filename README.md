@@ -57,7 +57,6 @@ A weboldal stílusa:
 - Interaktív hover effektek ikonokra és gombokra
 - **Input mezők animált labeljei** (floating labels)
 - Színek: fő szín `#e8491c` (narancs), kiegészítő `#0c2f3b` (sötétkék), fehér háttér és szövegek
-- **Bootstrap 5** használata a reszponzív layout és alap stílusok gyors implementálásához
 
 ---
 
