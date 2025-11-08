@@ -1,7 +1,9 @@
+/* Main container */
 .main-container{
 	position: relative;
 }
 
+/* Background image */
 .background-image{
 	position: absolute;
 	z-index: 1;
@@ -9,17 +11,20 @@
 	height: 69%;
 }
 
+/* Main section */
 main{
 	position: relative;
 	z-index: 2;
 }
 
+/* Article container */
 article{
 	display: flex;
 	justify-content: center;
 	padding: 24px 24px 150px 24px;
 }
 
+/* Registration form title */
 .registration-form-container h1{
 	font-size: 25px;
 	text-align: center;
@@ -27,6 +32,7 @@ article{
 	margin: 0;
 }
 
+/* Registration form */
 .registration-form{
 	font-size: 12px;
 	font-weight: normal;
@@ -34,35 +40,42 @@ article{
 	max-width: 400px;
 }
 
+/* Registration checkboxes */
 .registration-checkbox{
 	display: flex;
 	align-items: start;
 	gap: 6px;
 }
 
+/* Checkbox text and input */
 .registration-checkbox p,.registration-checkbox input{
 	margin: 0;
 }
 
+/* Checkbox styling */
 .registration-checkbox input{
 	margin-top: 0.5px;
 	margin-left: 4px;
 	accent-color: #e8491c;
 }
 
+/* Terms of service section */
 .aszf{
 	margin-bottom: 12px;
 }
 
+/* Newsletter checkbox section */
 .newsletter{
 	margin-bottom: 30px;
 }
 
+/* Input container */
 .input-container{
 	position: relative;
 	margin-bottom: 30px;
 }
 
+/* Input icons */
 .input-container i{
 	position: absolute;
 	top: 15px;
@@ -71,6 +84,7 @@ article{
 	cursor: pointer;
 }
 
+/* Input labels */
 .input-container input ~ label{
 	position: absolute;
 	top: 8px;
@@ -80,6 +94,7 @@ article{
 	
 }
 
+/* Input label focus/valid state */
 .input-container input:focus ~ label,.input-container input:valid ~ label, .email input:not(:placeholder-shown) ~ label{
 	top: -10px;
 	padding: 4px;
@@ -87,6 +102,7 @@ article{
 	color: black;
 }
 
+/* Input fields */
 .input-container input{
 	padding: 13px;
 	box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.5);
@@ -95,11 +111,13 @@ article{
 	outline: none;
 }
 
+/* Submit button spacing */
 button[type="submit"]{
 	margin-top: 0;
 	margin-bottom: 20px;
 }
 
+/* Button styling */
 .button {
 	background-color: #ec5833;
 	border: 1px solid #cc3e19;
@@ -113,6 +131,7 @@ button[type="submit"]{
 	height: 40px;
 }
 
+/* Button hover effect */
 .button:hover {
   background: #e54419;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -123,12 +142,13 @@ button[type="submit"]{
   transition: all 250ms linear;
 }
 
-
+/* Button container */
 .button-container{
 	display: flex;
 	justify-content: end;
 }
 
+/* Registration form container */
 .registration-form-container{
 	box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.5);
 	padding: 40px 40px 20px 40px;

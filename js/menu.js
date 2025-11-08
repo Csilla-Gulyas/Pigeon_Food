@@ -1,23 +1,30 @@
+// Function to create menu cards dynamically
 function createCards(dataArray, containerId) {
     const container = document.getElementById(containerId);
     const template = document.getElementById("card-template");
 
+    // Clear previous cards
     container.innerHTML = "";
 
+    // Loop through each item in dataArray to create a card
     dataArray.forEach((data, index) => {
         const card = template.cloneNode(true);
         card.removeAttribute("id")
 
+        //Set image, dish name and price
         card.querySelector("img").src = "assets/products/" + data.imagePath;
         card.querySelector("h5").textContent = data.name;
         card.querySelector("h6").textContent = `${data.price} Ft`;
 
+        // Make card visible
         card.style.display = "block";
 
+        // Append card to container
         container.appendChild(card);
     });
 }
 
+// Initialize cards when DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
     createCards(sessionalOffers, "sessional-offers-container");
     createCards(appetizers, "appetizers-container");
@@ -27,6 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
     createCards(desserts, "desserts-container");
 });
 
+// Arrays of menu items
+
+// Seasonal offers
 const sessionalOffers = [
     {
         imagePath: "teli-minestrone.jpg",
@@ -50,6 +60,7 @@ const sessionalOffers = [
     }
 ];
 
+// Appetizers
 const appetizers = [
     {
         imagePath: "laksa-leves.jpg",
@@ -73,6 +84,7 @@ const appetizers = [
     }
 ];
 
+// Poultry dishes
 const poultryDishes = [
     {
         imagePath: "csirkes-fajitas.jpg",
@@ -106,6 +118,7 @@ const poultryDishes = [
     }
 ];
 
+// Pork dishes
 const porkDishes = [
     {
         imagePath: "pulled-pork-tortilla.jpg",
@@ -139,6 +152,7 @@ const porkDishes = [
     }
 ];
 
+// Beef dishes
 const beefDishes = [
     {
         imagePath: "burrito-hazi-pico-de-gallo-salsaval.jpg",
@@ -167,6 +181,7 @@ const beefDishes = [
     }
 ];
 
+// Desserts
 const desserts = [
     {
         imagePath: "soskaramellas-panna-cotta.jpg",

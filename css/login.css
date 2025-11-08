@@ -1,7 +1,9 @@
+/* Main container */
 .main-container{
 	position: relative;
 }
 
+/* Background image styling */
 .background-image{
 	position: absolute;
 	z-index: 1;
@@ -9,17 +11,20 @@
 	height: 82%;
 }
 
+/* Main section */
 main{
 	position: relative;
 	z-index: 2;
 }
 
+/* Article layout */
 article{
 	display: flex;
 	justify-content: center;
 	padding: 24px 24px 150px 24px;
 }
 
+/* Sign-in form title */
 .sign-in-form-container h1{
 	font-size: 25px;
 	text-align: center;
@@ -27,6 +32,7 @@ article{
 	margin: 0;
 }
 
+/* Sign-in form */
 .sign-in-form{
 	font-size: 12px;
 	font-weight: normal;
@@ -35,6 +41,7 @@ article{
 
 }
 
+/* Sign-in checkboxes */
 .sign-in-checkbox{
 	display: flex;
 	align-items: start;
@@ -51,6 +58,7 @@ article{
 	accent-color: #e8491c;
 }
 
+/* Terms and newsletter spacing */
 .aszf{
 	margin-bottom: 12px;
 }
@@ -59,11 +67,13 @@ article{
 	margin-bottom: 30px;
 }
 
+/* Input container */
 .input-container{
 	position: relative;
 	margin-bottom: 30px;
 }
 
+/* Eye icon in password field */
 .input-container i{
 	position: absolute;
 	top: 15px;
@@ -72,6 +82,7 @@ article{
 	cursor: pointer;
 }
 
+/* Labels for inputs */
 .input-container input ~ label{
 	position: absolute;
 	top: 8px;
@@ -81,6 +92,7 @@ article{
 	
 }
 
+/* Label focus and valid state */
 .input-container input:focus ~ label,.input-container input:valid ~ label, .email input:not(:placeholder-shown) ~ label{
 	top: -10px;
 	padding: 4px;
@@ -88,6 +100,7 @@ article{
 	color: black;
 }
 
+/* Input styling */
 .input-container input{
 	padding: 13px;
 	box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.5);
@@ -96,6 +109,7 @@ article{
 	outline: none;
 }
 
+/* Submit button */
 button[type="submit"]{
 	margin-top: 0;
 	margin-bottom: 20px;
@@ -114,6 +128,7 @@ button[type="submit"]{
 	height: 40px;
 }
 
+/* Button hover state */
 .button:hover {
   background: #e54419;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -124,12 +139,13 @@ button[type="submit"]{
   transition: all 250ms linear;
 }
 
-
+/* Button container layout */
 .button-container{
 	display: flex;
 	justify-content: end;
 }
 
+/* Sign-in form container */
 .sign-in-form-container{
 	box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.5);
 	padding: 40px 40px 20px 40px;
@@ -139,6 +155,7 @@ button[type="submit"]{
 	border-color: #0c2f3b;
 }
 
+/* Forgot password link */
 .remember-password{
 	text-align: center;
 	width: 100%;

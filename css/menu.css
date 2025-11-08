@@ -1,8 +1,10 @@
+/* Menu navigation container */
 .menu-navigation {
 	width: 100%;
 	max-width: 1200px;
 }
 
+/* Menu navigation list */
 .menu-navigation ul{
 	width: 100%;
 	background-color: #e8491c;
@@ -10,21 +12,25 @@
 	padding: 0 100px;
 }
 
+/* Menu navigation links */
 .menu-navigation a{
 	border: 1px solid #e8491c;
 	margin: 15px 15px;
 }
 
+/* Menu navigation link hover effect */
 .menu-navigation a:hover{
 	border-color: #0c2f3b;
 }
 
+/* Main section layout */
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+/* Menu container */
 .menu{
 	margin: 0px 24px 150px 24px;
 	width: 100%;
@@ -34,11 +40,13 @@ main {
 	align-items: center;
 }
 
+/* Menu titles container */
 .menu-titles {
 	width: 100%;
 	max-width: 920px;
 }
 
+/* Menu title styling */
 .menu-titles h4{
 	background-color: #0c2f3b;
 	margin: 70px 0 30px 0;
@@ -48,17 +56,20 @@ main {
 	font-weight: 400;
 }
 
+/* Menu card container */
 .menu-cards{
 	width: 280px;
 	background-color: #e8491c;
 }
 
+/* Menu card image */
 .menu-cards img{
 	object-fit: cover;
 	width: 100%;
 	height: 200px;
 }
 
+/* Menu card title */
 .menu-cards h5{
 	height: 48px;
 	margin: 0 0 10px 0;
@@ -68,6 +79,7 @@ main {
 	font-weight: 500;
 }
 
+/* Menu card price */
 .menu-cards h6{
 	margin: 0;
 	text-align:center;
@@ -76,14 +88,17 @@ main {
 	font-weight: 700;
 }
 
+/* Menu card text container */
 .menu-cards-text{
 	padding: 8px;
 }
 
+/* Menu card icons and title */
 .menu-cards-text i, h5{
 	cursor: pointer;
 }
 
+/* Menu icons container */
 .menu-icons{
 	display: flex;
 	flex-direction: row;
@@ -91,6 +106,7 @@ main {
 	width: 100%;
 }
 
+/* Menu card information section */
 .menu-cards-information{
 	display: flex;
 	justify-content: flex-start;
@@ -100,6 +116,7 @@ main {
 	font-size: 16px;
 }
 
+/* Menu card shopping cart section */
 .menu-cards-shopping-cart{
 	width: 100%;
 	display: flex;
@@ -110,11 +127,13 @@ main {
 	font-size: 20px;
 }
 
+/* Shopping cart icon hover animation */
 .menu-cards-shopping-cart i:hover {
-      animation: heartbeat 0.6s;
-      animation-fill-mode: forwards;
-    }
+    animation: heartbeat 0.6s;
+    animation-fill-mode: forwards;
+}
 
+/* Heartbeat animation keyframes */
 @keyframes heartbeat {
   0% {
 	transform: scale(1);
@@ -127,6 +146,7 @@ main {
   }
 }
 
+/* Menu cards grid container */
 .menu-cards-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
